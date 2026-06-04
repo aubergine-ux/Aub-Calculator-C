@@ -28,5 +28,7 @@ int main() {
         cout << "Not Recognized as an Operation!";
     }
 
+    cin.ignore();
+    cin.get();
     return 0;
 }
